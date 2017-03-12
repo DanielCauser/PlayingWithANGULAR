@@ -1,0 +1,47 @@
+
+<!--<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <title></title>
+</head>
+<body ng-controller="Main">
+
+    <input type="text" ng-model="vm.food" placeholder="Enter food" />
+
+    <p>Sriracha sauce is great with {{vm.food}}!</p>
+
+    <script src="scripts/angular.min.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/main.js"></script>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body  ng-app="mainApp">
+
+    <h1>{{search}}</h1>
+    <input ng-model="search"/>
+
+
+
+    <div ng-controller="EventCtrl">
+        <h1>
+            {{title}}
+        </h1>
+    </div>
+
+    <script src="app/angular.min.js"></script>
+    <script src="app/mainApp.js"></script>
+    <script src="app/event/eventModule.js"></script>
+    <script>
+        //console.log("Angular object", angular)
+    </script>
+</body>
+</html>
